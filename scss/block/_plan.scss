@@ -1,0 +1,66 @@
+.plan__block{
+    padding: 134px 0;
+    padding-left: 85px;
+    background-repeat: no-repeat;
+    background-image: url(../img/third/plan-bg.jpg);
+}
+.plan__title{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+.plan__text{
+    max-width: 445px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:950px) {
+    .plan__block{
+        padding: 127px 0;
+        padding-left: 58px;
+        background-repeat: no-repeat;
+        background-image: url(../img/third/tablet-plan-bg.jpg);
+        background-size: cover;
+    }
+    .plan__title{
+        font-size: 48px;
+line-height: 48px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .plan__block{
+        padding: 127px 0;
+        padding-left: 58px;
+        background-repeat: no-repeat;
+        background-image: url(../img/third/tablet-plan-bg.jpg);
+        background-size: cover;
+    }
+    .plan__title{
+        font-size: 48px;
+        line-height: 48px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .plan__block{
+        text-align: center;
+        padding: 101px 20px;
+        background-repeat: no-repeat;
+        background-image: url(../../img/third/mobi-plan-bg.jpg);
+        // background-size: cover;
+    }
+    .plan__title{
+        font-size: 48px;
+        line-height: 48px;
+    }
+}

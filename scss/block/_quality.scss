@@ -1,0 +1,218 @@
+.quality{
+    position: relative;
+    
+}
+.quality__wrap{
+        background-color:#2C343E;
+        border-radius:12px;
+}
+
+.quality__container{
+    max-width: 1110px;
+    margin: 0 auto;
+    // height: 474px;
+}
+.quality__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 88px;
+    padding-bottom: 176px;
+}
+.quality__content{
+    max-width: 540px;
+
+}
+.quality__title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+.quality__text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.img-block {
+    max-width: 445px;
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+}
+
+.quality__img-mob{
+    display: none;
+}
+.quality__img-tab{
+    display: none;
+}
+
+.quality__img{
+    width: 100%;
+}
+
+@media screen and (max-width:1172px) {
+    .quality{
+        padding-top:150px;
+    }
+    .quality__block{
+        padding: 0 74px;
+        padding-top: 224px;
+        padding-bottom: 67px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .quality__content{
+        max-width: 540px;
+        margin-top: 64px;
+    }
+    .quality__title{
+        font-size: 32px;
+line-height: 48px;
+        margin-bottom: 24px;
+    }
+    .quality__text{
+        font-size: 15px;
+line-height: 25px;
+    }
+    .img-block{
+        max-width: 573px;
+        transform: translate(-35%, -95%);
+        
+    }
+    .quality__img-mob{
+        display: none;
+    }
+    .quality__img-tab{
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .quality__img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:907px) {
+    .img-block{
+        transform: translate(-25%, -95%);
+    }
+}
+@media screen and (max-width:850px) {
+    .img-block{
+        transform: translate(-18%, -95%);
+    }
+}
+@media screen and (max-width:895px) {
+    .img-block{
+        transform: translate(-12%, -95%);
+    }
+}
+@media screen and (max-width:730px) {
+    .img-block{
+        transform: translate(-7%, -95%);
+    }
+}
+@media screen and (max-width:705px) {
+    .img-block{
+        transform: translate(-7%, -145%);
+    }
+}
+
+@media screen and (max-width:710px) {
+    
+    .quality__img-mob{
+        display: inline-block;
+        width: 100%;
+    }
+    .quality__img-tab{
+        display: none;
+    }
+    
+    .quality__img{
+        display: none;
+    }
+    .quality__block{
+        padding: 0 24px;
+        padding-top: 142px;
+        padding-bottom: 61px;
+    }
+    .img-block {
+        transform: translate(-8% , -101%);
+    }
+    
+}
+@media screen and (max-width:705px) {
+    .quality__content{
+        max-width: 279px;
+        margin-top: 64px;
+    }
+    .quality__title{
+        font-size: 28px;
+line-height: 28px;
+        margin-bottom: 24px;
+    }
+    .quality__text{
+        font-size: 15px;
+line-height: 25px;
+    }
+    .quality__img-mob{
+        display: inline-block;
+        width: 100%;
+    }
+    .quality__img-tab{
+        display: none;
+    }
+    
+    .quality__img{
+        display: none;
+    }
+}
+@media screen and (max-width:704px) {
+    .img-block{
+            transform: translate(-68%, -270%);
+    }
+}
+@media screen and (max-width:699px) {
+    
+    
+    .quality__block{
+        padding: 0 24px;
+        padding-top: 142px;
+        padding-bottom: 61px;
+    }
+    .img-block{
+        transform: translate(-55%, -262%);
+    }
+}
+
+@media screen and (max-width:570px) {
+    .img-block{
+            transform: translate(-43%, -270%);
+    }
+}
+
+@media screen and (max-width:500px) {
+    .img-block{
+            transform: translate(-30%, -270%);
+    }
+}
+@media screen and (max-width:450px) {
+    .img-block{
+            transform: translate(-20%, -270%);
+    }
+}
+@media screen and (max-width:400px) {
+    .img-block{
+            transform: translate(-8%, -270%);
+    }
+}
